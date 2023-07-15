@@ -3,9 +3,9 @@ import icon from '../../assets/BG-Logo-R.png';
 
 const DACToJFK = () => {
     return (
-        <div className='h-[450px] bg-slate-100 rounded-2xl'>
+        <div className='sm:h-[600px] md:h-[500px] lg:h-[500px] bg-slate-100 rounded-2xl sm:p-4'>
             <div className="mx-auto flex ">
-                <div className="w-2/6 p-5">
+                <div className="md:w-2/6 p-5">
                     <img src={icon} className="h-10 w-10" alt="" />
                     <h1 className="">Biman Bangladesh Airlines</h1>
                     <p className="text-green-400 font-semibold mt-4">BG 617</p>
@@ -23,7 +23,7 @@ const DACToJFK = () => {
                     </div>
                     {/* Icon */}
                     <div className="flex flex-col items-center">
-                        <FaPlane className="h-16 w-16"></FaPlane>
+                        <FaPlane className="md:h-16 sm:h-8 md:w-16 sm:w-8"></FaPlane>
                     </div>
                     {/* Right Text */}
                     <div className="flex-1 text-right">
@@ -59,7 +59,7 @@ const DACToJFK = () => {
                     </div>
                     {/* Icon */}
                     <div className="flex flex-col items-center">
-                        <FaPlane className="h-16 w-16"></FaPlane>
+                        <FaPlane className="md:h-16 sm:h-8 md:w-16 sm:w-8"></FaPlane>
                     </div>
                     {/* Right Text */}
                     <div className="flex-1 text-right">
