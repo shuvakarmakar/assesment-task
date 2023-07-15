@@ -4,7 +4,7 @@ import './Main.css'
 
 const Main = () => {
     return (
-        <div id="main">
+        <div>
             <Home></Home>
             <Outlet></Outlet>
         </div>
